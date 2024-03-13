@@ -21,3 +21,24 @@ Baixar o JDK (DIRETO DO GOOGLE)
 Variavés de ambiente 
 VARIÁVEIS DE USUÁRIO
  
+>PARA ABRIR NOVO PROJETO CTRL + SHITF + P
+>
+> SALVAR NA PASTA
+>
+> F5 PRA APARECER
+>
+>CRIAR ELEMENTOS DEPOIS
+>
+>@override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: Scaffold(
+        body: Center(
+
+          child: Text('Hello World!'),
+          //CRIAR NOVOS ELEMENTOS (DEPOIS DO TEXT)
+        ),
+      ),
+    );
+  }
+}
